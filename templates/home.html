@@ -1034,7 +1034,7 @@
             <div class="certification-card">
 
                 <span class="certification-number">
-                    05
+                    03
                 </span>
 
                 <h3>
@@ -1049,7 +1049,7 @@
                 </p>
 
                 <a
-                    href="https://www.linkedin.com/posts/renuka-biradar-782100273_just-completed-my-database-course-on-oracle-activity-7224347303057272834-iZu9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELBwFIBI20Z_aLLtL354WUM29guiW3rRpI"
+                    href="https://www.linkedin.com/posts/renuka-biradar-782100273_research-ictcs2025-edgedetection-activity-7410341864689721344-FKCT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELBwFIBI20Z_aLLtL354WUM29guiW3rRpI"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="certificate-btn"
@@ -1063,7 +1063,7 @@
             <div class="certification-card">
 
                 <span class="certification-number">
-                    03
+                    04
                 </span>
 
                 <h3>
@@ -1089,7 +1089,7 @@
             <div class="certification-card">
 
                 <span class="certification-number">
-                    04
+                    05
                 </span>
 
                 <h3>
@@ -1263,7 +1263,6 @@
 
 </section>
 
-
 <!-- =====================================================
      CONTACT SECTION
 ===================================================== -->
@@ -1289,10 +1288,22 @@
         </div>
 
 
+        <!-- Success / Error Message -->
+        <div
+            id="form-message"
+            class="form-message"
+            role="alert"
+            aria-live="polite"
+            style="display: none;"
+        ></div>
+
+
         <div class="contact-grid">
 
 
-            <!-- Contact Information -->
+            <!-- =================================================
+                 CONTACT INFORMATION
+            ================================================== -->
             <div class="contact-info">
 
                 <h3>
@@ -1308,6 +1319,8 @@
 
                 <div class="contact-details">
 
+
+                    <!-- Primary Email -->
                     <div class="contact-item email-contact">
 
                         <span class="contact-label">
@@ -1335,10 +1348,12 @@
 
                     </div>
 
+
+                    <!-- Alternate Email -->
                     <div class="contact-item email-contact">
 
                         <span class="contact-label">
-                            Email
+                            Alternate Email
                         </span>
 
                         <div class="email-row">
@@ -1363,19 +1378,24 @@
                     </div>
 
 
+                    <!-- Phone -->
                     <div class="contact-item">
 
                         <span class="contact-label">
                             Phone
                         </span>
 
-                        <span class="contact-value">
+                        <a
+                            href="tel:+919010299085"
+                            class="contact-value"
+                        >
                             +91-9010299085
-                        </span>
+                        </a>
 
                     </div>
 
 
+                    <!-- GitHub -->
                     <a
                         href="https://github.com/Renuka-cell"
                         target="_blank"
@@ -1388,12 +1408,13 @@
                         </span>
 
                         <span class="contact-value">
-                            Add your GitHub profile
+                            github.com/Renuka-cell
                         </span>
 
                     </a>
 
 
+                    <!-- LinkedIn -->
                     <a
                         href="https://www.linkedin.com/in/renuka-biradar-782100273/"
                         target="_blank"
@@ -1406,27 +1427,33 @@
                         </span>
 
                         <span class="contact-value">
-                            Add your LinkedIn profile
+                            linkedin.com/in/renuka-biradar-782100273
                         </span>
 
                     </a>
+
 
                 </div>
 
             </div>
 
 
-            <!-- Contact Form -->
+            <!-- =================================================
+                 CONTACT FORM
+            ================================================== -->
             <div class="contact-form-wrapper">
 
                 <form
                     method="post"
-                    action="#contact"
+                    action="{% url 'home' %}"
                     class="contact-form"
+                    id="contact-form"
                 >
 
                     {% csrf_token %}
 
+
+                    <!-- Name -->
                     <div class="form-group">
 
                         <label for="name">
@@ -1444,6 +1471,7 @@
                     </div>
 
 
+                    <!-- Email -->
                     <div class="form-group">
 
                         <label for="email">
@@ -1461,6 +1489,7 @@
                     </div>
 
 
+                    <!-- Subject -->
                     <div class="form-group">
 
                         <label for="subject">
@@ -1478,6 +1507,7 @@
                     </div>
 
 
+                    <!-- Message -->
                     <div class="form-group">
 
                         <label for="message">
@@ -1495,9 +1525,11 @@
                     </div>
 
 
+                    <!-- Submit -->
                     <button
                         type="submit"
                         class="btn btn-primary submit-btn"
+                        id="submit-btn"
                     >
                         Send Message
                     </button>
