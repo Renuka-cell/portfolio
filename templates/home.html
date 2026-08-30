@@ -1,0 +1,1515 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<!-- =====================================================
+     HERO / HOME SECTION
+===================================================== -->
+<section id="home" class="hero section">
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <p class="hero-greeting">
+                Hello, I'm
+            </p>
+
+            <h1>
+                Renuka Balaji Biradar
+            </h1>
+
+            <h2>
+                Python Developer <span>|</span> Full-Stack Developer
+                <span>|</span> Data Analyst
+            </h2>
+
+            <p class="hero-description">
+                I build practical web applications, REST APIs and
+                data-driven solutions using Python, Django, SQL,
+                Power BI and modern web technologies.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    View My Projects
+                </a>
+
+                <a
+                    href="{% static 'files/Renuka_Balaji_Biradar_Resume(M).pdf' %}"
+                    class="btn btn-secondary"
+                    target="_blank"
+                >
+                    View Resume
+                </a>
+
+                <a
+                    href="{% static 'files/Renuka_Balaji_Biradar_Resume(M).pdf' %}"
+                    class="btn btn-outline"
+                    download
+                >
+                    Download Resume
+                </a>
+
+            </div>
+
+            <div class="hero-social-links">
+
+                <a
+                    href="https://github.com/Renuka-cell"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/renuka-biradar-782100273/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+                <!--<a href="mailto:biradarrenuka1101@gmail.com">
+                    Email
+                </a>
+
+                <a href="mailto:renukabiradar2004@gmail.com">
+                    Alternate Email
+                </a>-->
+
+            </div>
+
+        </div>
+
+
+        <!-- Profile Picture -->
+        <div class="hero-image">
+
+            <div class="profile-image-wrapper">
+
+                <img
+                    src="{% static 'images/profile.jpg' %}"
+                    alt="Renuka Balaji Biradar profile picture"
+                    class="profile-image"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT SECTION
+===================================================== -->
+<section id="about" class="section about-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">
+                Get To Know Me
+            </p>
+
+            <h2>
+                About Me
+            </h2>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-content">
+
+                <p>
+                    I am a Computer Science undergraduate with hands-on
+                    experience in backend-focused full-stack development,
+                    REST API development and data analytics.
+                </p>
+
+                <p>
+                    I have practical experience working with Python,
+                    Django, REST APIs, MySQL, PostgreSQL, Power BI and
+                    Microsoft Excel. I enjoy building practical solutions
+                    that combine software development, automation and
+                    data-driven insights.
+                </p>
+
+                <p>
+                    During my internship at JBB Technologies, I contributed
+                    to backend API development and full-stack features,
+                    including analytics and reporting modules.
+                </p>
+
+                <p>
+                    I am passionate about problem solving, learning new
+                    technologies and developing applications that solve
+                    real-world problems.
+                </p>
+
+            </div>
+
+
+            <div class="about-highlights">
+
+                <div class="highlight-card">
+                    <span class="highlight-number">7+</span>
+                    <span class="highlight-text">Projects</span>
+                </div>
+
+                <div class="highlight-card">
+                    <span class="highlight-number">1</span>
+                    <span class="highlight-text">Internship</span>
+                </div>
+
+                <div class="highlight-card">
+                    <span class="highlight-number">9.43</span>
+                    <span class="highlight-text">B.Tech CGPA</span>
+                </div>
+
+                <div class="highlight-card">
+                    <span class="highlight-number">1</span>
+                    <span class="highlight-text">Research Paper</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SKILLS SECTION
+===================================================== -->
+<section id="skills" class="section skills-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">
+                What I Work With
+            </p>
+
+            <h2>
+                Technical Skills
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <!-- Programming -->
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    &lt;/&gt;
+                </div>
+
+                <h3>Programming</h3>
+
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>DSA</span>
+                    <span>PHP</span>
+                </div>
+
+            </div>
+
+
+            <!-- Backend -->
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    ⚙
+                </div>
+
+                <h3>Frameworks & Backend</h3>
+
+                <div class="skill-tags">
+                    <span>Django</span>
+                    <span>REST APIs</span>
+                    <span>CodeIgniter 4</span>
+                </div>
+
+            </div>
+
+
+            <!-- Databases -->
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    DB
+                </div>
+
+                <h3>Databases</h3>
+
+                <div class="skill-tags">
+                    <span>MySQL</span>
+                    <span>PostgreSQL</span>
+                    <span>Supabase</span>
+                </div>
+
+            </div>
+
+
+            <!-- Tools -->
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    ⚡
+                </div>
+
+                <h3>Libraries & Tools</h3>
+
+                <div class="skill-tags">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Postman</span>
+                    <span>Power BI</span>
+                    <span>MS Excel</span>
+                    <span>Vs Code</span>
+                </div>
+
+            </div>
+
+
+            <!-- Soft Skills -->
+            <div class="skill-category">
+
+                <div class="skill-icon">
+                    ✦
+                </div>
+
+                <h3>Professional Skills</h3>
+
+                <div class="skill-tags">
+                    <span>Problem Solving</span>
+                    <span>Analytical Thinking</span>
+                    <span>Team Collaboration</span>
+                    <span>Communication</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EXPERIENCE SECTION
+===================================================== -->
+<section id="experience" class="section experience-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">
+                My Professional Journey
+            </p>
+
+            <h2>
+                Experience
+            </h2>
+
+        </div>
+
+
+        <div class="experience-card">
+
+            <div class="experience-header">
+
+                <div>
+
+                    <h3>
+                        Full Stack Developer Intern
+                    </h3>
+
+                    <h4>
+                        JBB Technologies
+                    </h4>
+
+                </div>
+
+                <span class="experience-date">
+                    Jan – Jul 2026
+                </span>
+
+            </div>
+
+
+            <div class="experience-body">
+
+                <p>
+                    • Worked on backend API development and full-stack application features.<br>
+                    • Built analytics and reporting modules for financial systems.<br>
+                    • Used technologies like PHP, MySQL, JavaScript, and Django.<br>
+                    • Contributed to structured, scalable, and maintainable system design.
+                </p>
+            
+            </div>
+
+
+                <div class="experience-technologies">
+
+                    <span>Backend Development</span>
+                    <span>REST APIs</span>
+                    <span>Analytics</span>
+                    <span>Reporting</span>
+
+                </div>
+
+            </div>
+
+            <div class="experience-certificate">
+
+                <div class="certificate-info">
+
+                    <span class="certificate-label">
+                        Internship Certificate
+                    </span>
+
+                    <span class="certificate-description">
+                        Certificate of Completion — JBB Technologies
+                    </span>
+
+                </div>
+
+                <div class="certificate-actions">
+
+                    <a
+                        href="{% static 'files/Experience Certificate-Renuka Biradar.pdf' %}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn"
+                    >
+                        View Certificate ↗
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/posts/renuka-biradar-782100273_internship-internshipexperience-softwaredeveloper-activity-7493636649772478464-hYjL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELBwFIBI20Z_aLLtL354WUM29guiW3rRpI"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certificate-btn certificate-linkedin"
+                    >
+                        View on LinkedIn ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECTS SECTION
+===================================================== -->
+<section id="projects" class="section projects-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">
+                Things I've Built
+            </p>
+
+            <h2>
+                Featured Projects
+            </h2>
+
+            <p class="section-description">
+                A selection of development, data analytics and
+                machine learning projects I've worked on.
+            </p>
+
+        </div>
+
+
+        <div class="project-grid">
+
+
+            <!-- PROJECT 1 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{% static 'images/adaptive.jpg' %}"
+                        alt="Adaptive Edge Detection project"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Adaptive Edge Detection by Virtue of PSO driven Machine Learning
+                    </h3>
+
+                    <p>
+                        Developed an intelligent image edge-detection system
+                        that combines Canny Edge Detection, Particle Swarm
+                        Optimization (PSO), and Machine Learning to adaptively
+                        determine optimal edge-detection parameters. Built a
+                        Hybrid Vision Transformer (ViT)-UNet segmentation model
+                        for enhanced edge prediction, with a Python/Django-based
+                        application for image processing and visualization.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>TensorFlow/Keras</span>
+                        <span>PSO</span>
+                        <span>OpenCV</span>
+                        <span>Django</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/rprp14/adaptive_edge_detection_project"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-github"
+                        >
+                            GitHub
+                        </a>
+
+                        <!--<a
+                            href="YOUR_LIVE_DEMO_URL"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-demo"
+                        >
+                            Live Demo
+                        </a>-->
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{% static 'images/BlinkIt.jpg' %}"
+                        alt="Blinkit Sales and Performance Dashboard"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Blinkit Sales & Performance Dashboard
+                    </h3>
+
+                    <p>
+                        Developed an interactive Power BI dashboard to analyze
+                        Blinkit’s sales performance, outlet characteristics,
+                        item categories, ratings, and customer trends. The
+                        dashboard uses KPIs, filters, charts, and detailed
+                        visualizations to provide actionable insights into
+                        sales, product performance, and outlet-level metrics.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>Excel</span>
+                        <span>Data Analysis</span>
+                        <span>Data Visualization</span>
+                    </div>
+                    
+                    <div class="project-links">
+
+                        <!--<a
+                            href="YOUR_GITHUB_URL"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-github"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="YOUR_LIVE_DEMO_URL"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-demo"
+                        >
+                            Live Demo
+                        </a>-->
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{% static 'images/cloud_monitoring.jpg' %}"
+                        alt="Cloud-Based Link Monitoring and Reporting System"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Cloud-Based Link Monitoring & Reporting System
+                    </h3>
+
+                    <p>
+                        The Cloud-Based Link Monitoring & Reporting System is
+                        designed to reduce the manual effort involved in
+                        checking website links.
+                    </p>
+
+                    <p>
+                        Users can enter one or multiple URLs and monitor their
+                        availability, HTTP status, and response time through
+                        an interactive dashboard.
+                    </p>
+
+                    <p>
+                        The system can automatically recheck stored URLs at
+                        fixed intervals and maintain monitoring history.
+                        Reports can be generated in CSV format and uploaded
+                        to Cloudinary for remote access and downloading.
+                    </p>
+
+                    <p>
+                        The project combines web development, REST APIs,
+                        automation, authentication, databases, cloud storage,
+                        and cloud deployment into a single practical
+                        application.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>PostgreSQL</span>
+                        <span>REST APIs</span>
+                        <span>Cloudinary</span>
+                        <span>OAuth</span>
+                        <span>APScheduler</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/Renuka-cell/cloud-link-checker"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-github"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://linkchecker-project.onrender.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-demo"
+                        >
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 4 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{% static 'images/coffee.jpg' %}"
+                        alt="Coffee Shop Sales Analysis Dashboard"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Coffee Shop Sales Analysis Dashboard
+                    </h3>
+
+                    <p>
+                        This project presents a detailed sales analysis of a
+                        coffee shop using real transactional data. The
+                        dashboard was built using Microsoft Excel, showcasing
+                        various insights on sales trends, customer footfall,
+                        product performance, and more.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Microsoft Excel</span>
+                        <span>Data Analysis</span>
+                        <span>Data Visualization</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/Renuka-cell/Coffee-Shop-analysis-.git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-github"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/posts/renuka-biradar-782100273_excited-to-share-my-latest-project-coffee-activity-7357319063703900160-DsEr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELBwFIBI20Z_aLLtL354WUM29guiW3rRpI"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-demo"
+                        >
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 5 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{% static 'images/KBBs.jpg' %}"
+                        alt="KBBKS Financial Management System"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        05
+                    </span>
+
+                    <h3>
+                        KBBKS Financial Management System (FMS)
+                    </h3>
+
+                    <p>
+                        A full-stack financial management system designed
+                        for NGOs and small organizations to digitally manage
+                        vendors, expenses, payments, and financial reports.
+                    </p>
+
+                    <p>
+                        This system replaces manual bookkeeping with a secure,
+                        web-based solution that provides real-time financial
+                        insights and organized vendor management.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>PHP</span>
+                        <span>CodeIgniter 4</span>
+                        <span>MySQL</span>
+                        <span>REST APIs</span>
+                        <span>Postman</span>
+                        <span>Git/GitHub</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/Renuka-cell/KBBKS-Financial-Management-System"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-github"
+                        >
+                            GitHub
+                        </a>
+
+                        <!--<a
+                            href="YOUR_LIVE_DEMO_URL"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-demo"
+                        >
+                            Live Demo
+                        </a>-->
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 6 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{% static 'images/optical.jpg' %}"
+                        alt="Optical Shop Billing and Invoice Management System"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        06
+                    </span>
+
+                    <h3>
+                        Optical Shop Billing & Invoice Management System
+                    </h3>
+
+                    <p>
+                        The Optical Shop Billing & Invoice Management System
+                        is a full-stack web application developed to automate
+                        and digitize the daily operations of an optical store.
+                    </p>
+
+                    <p>
+                        The system enables efficient management of customers,
+                        invoices, prescriptions, payments, staff, and shop
+                        information through a secure and user-friendly
+                        interface.
+                    </p>
+
+                    <p>
+                        The application provides secure authentication,
+                        role-based access control, invoice generation, PDF
+                        downloads, customer history tracking, staff management,
+                        payment monitoring, and shop settings management.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>CodeIgniter 4</span>
+                        <span>React.js</span>
+                        <span>Authentication</span>
+                        <span>REST APIs</span>
+                        <span>PDF</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/Renuka-cell/optical-shop-billing-system"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-github"
+                        >
+                            GitHub
+                        </a>
+
+                        <!--<a
+                            href="YOUR_LIVE_DEMO_URL"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-demo"
+                        >
+                            Live Demo
+                        </a>-->
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 7 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="{% static 'images/Todo_supabase.jpg' %}"
+                        alt="Supabase Todo Management Application"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        07
+                    </span>
+
+                    <h3>
+                        Todo App
+                    </h3>
+
+                    <p>
+                        A full-stack Todo application built with Next.js and
+                        Supabase, featuring secure user authentication,
+                        personalized task management, and real-time database
+                        integration.
+                    </p>
+
+                    <p>
+                        Deployed on Vercel with Supabase handling
+                        authentication and data storage.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Next.js</span>
+                        <span>Supabase</span>
+                        <span>PostgreSQL</span>
+                        <span>JavaScript</span>
+                        <span>OAuth</span>
+                        <span>Vercel</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/Renuka-cell/supabase-todo-app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-github"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://supabase-todo-app-swart.vercel.app/login"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-btn project-demo"
+                        >
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CERTIFICATIONS SECTION
+===================================================== -->
+<section id="certifications" class="section certifications-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">
+                Professional Development
+            </p>
+
+            <h2>
+                Certifications
+            </h2>
+
+        </div>
+
+
+        <div class="certifications-grid">
+
+
+            <div class="certification-card">
+
+                <span class="certification-number">
+                    01
+                </span>
+
+                <h3>
+                    NPTEL – Data Structures and Algorithms using Java
+                </h3>
+
+                <p>
+                    NPTEL
+                </p>
+
+                <a
+                    href="https://www.linkedin.com/posts/renuka-biradar-782100273_achievementunlocked-nptel-datastructures-activity-7266650748212391936-kMQ4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELBwFIBI20Z_aLLtL354WUM29guiW3rRpI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="certificate-btn"
+                >
+                    View Certificate
+                </a>
+
+            </div>
+
+
+            <div class="certification-card">
+
+                <span class="certification-number">
+                    02
+                </span>
+
+                <h3>
+                    Database Foundations
+                </h3>
+
+                <p>
+                    Oracle Academy
+                </p>
+
+                <a
+                    href="https://www.linkedin.com/posts/renuka-biradar-782100273_just-completed-my-database-course-on-oracle-activity-7224347303057272834-iZu9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELBwFIBI20Z_aLLtL354WUM29guiW3rRpI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="certificate-btn"
+                >
+                    View Certificate
+                </a>
+
+            </div>
+
+
+            <div class="certification-card">
+
+                <span class="certification-number">
+                    05
+                </span>
+
+                <h3>
+                    Research Paper Presentation – ICTCS 2025
+                </h3>
+
+                <p>
+                    Presented the research paper “A Survey on Edge Detection using Particle Swarm Optimization”
+                    at the 10th International Conference on Information and Communication Technology for
+                    Competitive Strategies (ICTCS 2025) on 16 December 2025. The paper was also selected
+                    for publication as per Springer guidelines.
+                </p>
+
+                <a
+                    href="https://www.linkedin.com/posts/renuka-biradar-782100273_just-completed-my-database-course-on-oracle-activity-7224347303057272834-iZu9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELBwFIBI20Z_aLLtL354WUM29guiW3rRpI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="certificate-btn"
+                >
+                    View Certificate
+                </a>
+
+            </div>
+
+
+            <div class="certification-card">
+
+                <span class="certification-number">
+                    03
+                </span>
+
+                <h3>
+                    RHCSA
+                </h3>
+
+                <p>
+                    Score: 240/300 — First Attempt
+                </p>
+
+                <!--<a
+                    href="YOUR_LINKEDIN_CERTIFICATE_URL"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="certificate-btn"
+                >
+                    View Certificate
+                </a>-->
+
+            </div>
+
+
+            <div class="certification-card">
+
+                <span class="certification-number">
+                    04
+                </span>
+
+                <h3>
+                    Honor Degree in Cloud Computing
+                </h3>
+
+                <p>
+                    Cloud Computing
+                </p>
+
+                <!--<button
+                    type="button"
+                    class="certificate-btn"
+                    disabled
+                >
+                    Certificate — Add Link
+                </button>-->
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ACHIEVEMENTS SECTION
+===================================================== -->
+<section id="achievements" class="section achievements-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">
+                Milestones
+            </p>
+
+            <h2>
+                Achievements
+            </h2>
+
+        </div>
+
+
+        <div class="achievement-card">
+
+            <div class="achievement-icon">
+                ★
+            </div>
+
+            <div class="achievement-content">
+
+                <span class="achievement-label">
+                    Research & Publication
+                </span>
+
+                <h3>
+                    Co-authored a Research Paper on PSO-Based Edge Detection
+                </h3>
+
+                <p>
+                    Co-authored a research paper on PSO-based edge detection,
+                    associated with ICTCS 2025 and Springer selection.
+                </p>
+
+                <a
+                    href="https://www.linkedin.com/posts/renuka-biradar-782100273_research-springernature-publication-activity-7492840101757022208-9p5L?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELBwFIBI20Z_aLLtL354WUM29guiW3rRpI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="certificate-btn"
+                >
+                    View Achievement ↗
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EDUCATION SECTION
+===================================================== -->
+<section id="education" class="section education-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">
+                Academic Background
+            </p>
+
+            <h2>
+                Education
+            </h2>
+
+        </div>
+
+
+        <div class="education-timeline">
+
+
+            <!-- B.Tech -->
+            <div class="education-item">
+
+                <div class="education-dot"></div>
+
+                <div class="education-card">
+
+                    <span class="education-year">
+                        2026
+                    </span>
+
+                    <h3>
+                        Bachelor of Technology in Computer Science and Engineering
+                    </h3>
+
+                    <h4>
+                        Maharashtra Institute of Technology,
+                        Chhatrapati Sambhaji Nagar
+                    </h4>
+
+                    <p>
+                        CGPA: 9.43
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- HSC -->
+            <div class="education-item">
+
+                <div class="education-dot"></div>
+
+                <div class="education-card">
+
+                    <span class="education-year">
+                        2021
+                    </span>
+
+                    <h3>
+                        Higher Secondary Certificate (HSC)
+                    </h3>
+
+                    <h4>
+                        Matoshri Arts and Science Junior College, Pusad
+                    </h4>
+
+                    <p>
+                        Maharashtra Board — 86.67%
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT SECTION
+===================================================== -->
+<section id="contact" class="section contact-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-subtitle">
+                Get In Touch
+            </p>
+
+            <h2>
+                Contact Me
+            </h2>
+
+            <p class="section-description">
+                Have an opportunity, project idea or simply want to
+                connect? Feel free to get in touch.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+
+                <h3>
+                    Let's Connect
+                </h3>
+
+                <p>
+                    I'm open to opportunities, collaborations and
+                    interesting projects in software development,
+                    backend development and data analytics.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <div class="contact-item email-contact">
+
+                        <span class="contact-label">
+                            Email
+                        </span>
+
+                        <div class="email-row">
+
+                            <a
+                                href="mailto:biradarrenuka1101@gmail.com"
+                                class="contact-value email-link"
+                            >
+                                biradarrenuka1101@gmail.com
+                            </a>
+
+                            <button
+                                type="button"
+                                class="copy-email-btn"
+                                data-email="biradarrenuka1101@gmail.com"
+                            >
+                                Copy
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item email-contact">
+
+                        <span class="contact-label">
+                            Email
+                        </span>
+
+                        <div class="email-row">
+
+                            <a
+                                href="mailto:renukabiradar2004@gmail.com"
+                                class="contact-value email-link"
+                            >
+                                renukabiradar2004@gmail.com
+                            </a>
+
+                            <button
+                                type="button"
+                                class="copy-email-btn"
+                                data-email="renukabiradar2004@gmail.com"
+                            >
+                                Copy
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-label">
+                            Phone
+                        </span>
+
+                        <span class="contact-value">
+                            +91-9010299085
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="https://github.com/Renuka-cell"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-item"
+                    >
+
+                        <span class="contact-label">
+                            GitHub
+                        </span>
+
+                        <span class="contact-value">
+                            Add your GitHub profile
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="https://www.linkedin.com/in/renuka-biradar-782100273/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-item"
+                    >
+
+                        <span class="contact-label">
+                            LinkedIn
+                        </span>
+
+                        <span class="contact-value">
+                            Add your LinkedIn profile
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+
+                <form
+                    method="post"
+                    action="#contact"
+                    class="contact-form"
+                >
+
+                    {% csrf_token %}
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="your@email.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="What would you like to discuss?"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary submit-btn"
+                    >
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
